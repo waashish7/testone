@@ -1,8 +1,8 @@
 # Note that this is for the GB timezone. Look in
 # /usr/share/zoneinfo for your relevant file.
-service "vixie-cron"
-service "sysklogd"
-service "nginx"
+#service "vixie-cron"
+#service "sysklogd"
+#service "nginx"
 
 link "/etc/localtime" do
   to "/usr/share/zoneinfo/GB"
